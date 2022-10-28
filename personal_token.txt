@@ -1,0 +1,8 @@
+//Token
+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
+
+//Clone
+git Clone https://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@github.com/Milher21/Prep-Course.git
+
+//Push
+git push https://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@github.com/Milher21/Prep-Course.git
