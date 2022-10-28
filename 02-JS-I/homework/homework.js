@@ -42,7 +42,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return y-x;
+  return x-y;
 }
 
 function multiplica(x, y) {
@@ -169,7 +169,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  
+  return nombre + " " + apellido;
 }
 
 function obtenerSaludo(nombre) {
@@ -215,7 +215,7 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   let a="";
-  if(a=="a"||a=="e"||a=="i"||a=="o"||a=="u"){
+  if(letra=="a"||letra=="e"||letra=="i"||letra=="o"||letra=="u"){
     a="Es vocal";
   }else {
     a="Dato incorrecto";
