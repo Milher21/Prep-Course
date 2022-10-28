@@ -1,0 +1,11 @@
+for sirve para realizar bucles, necesita tres valores. El primero es una variable de control iniciado, luego una condición
+y finalmente una regla de aumento o decremento. La variable inicial debe ir creciendo o decreciendo de acuerdo a la tercera
+regla hasta cumplir con la condición del medio. Dentro del for, entre llaves está la lógico o código que se necesita repetir.
+
+&& el operador de conjunción, es similar a "Y" en lógica de preposiciones. Nos sirve para buscar que dos o más condiciones
+se cumplan si o sí para devolver el valor de True, caso contrario retorna False.
+
+|| el operador de disyunción, es afín a "o" en lógica de bool o prepocisional. Lo usamos cuando queremos que al menos una
+condición planteadas sea verdadera para devolver True, de otra manera retorna False.
+
+! Lo usamos para negar o darle la contraria a una condición.
