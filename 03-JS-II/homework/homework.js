@@ -134,6 +134,17 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
+  let a=numero;
+  if(numero%3===0){
+    a = "fizz";
+  }
+  if(numero%5===0){
+    a = "buzz";
+  }
+  if(numero%3===0&&numero%5===0){
+    a = "fizzbuzz";
+  }
+  return a;
 }
 
 function operadoresLogicos(num1, num2, num3) {
@@ -143,18 +154,21 @@ function operadoresLogicos(num1, num2, num3) {
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false.
-  if(num1==0||num2==0||num3==0){
-    return "Error";
-  }
-  if(num1>num2>=num3||num1>num3>=num2) {
-    return "Número 1 es mayor y positivo";
-  }else if (num1<0||num2<0||num3<0) {
-    return "Hay negativos";
-  } else if(num3>num2>=num1||num3>num1>=num2) {
-    return ++num3;
-  }else{
-    return false;
-  }
+  let a = false;
+
+    if(num1>num2&&num1>num3&&num1>0) {
+      a = "Número 1 es mayor y positivo";
+    } 
+    if (num1<0||num2<0||num3<0) {
+      a =  "Hay negativos";
+    }  
+    if(num3>num2&&num3>num1) {
+      a = num3+1;
+    }
+    if(num1==0||num2==0||num3==0){
+      a = "Error";
+    }
+    return a;
 }
 
 function esPrimo(numero) {
@@ -164,12 +178,12 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   let divisores=0;
-  for(let i=1; i=numero; i++){
+  for(let i=1; i<=numero; i++){
     if (numero%i===0) {
       ++divisores;
     }
   }
-  if (divisores===1||divisores===2) {
+  if (divisores===2) {
     return true;      
   }else{
     return false;
@@ -194,7 +208,7 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí
   let a=[];
-  for(let i=0;i=60;i++){
+  for(let i=0;i<=10;i++){
     a[i]=i*6;
   }
   return a;
@@ -203,7 +217,7 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  if(numero.length===3){
+  if(99<numero&&numero<1000){
     return true;
   }else{
     return false;
