@@ -1,0 +1,23 @@
+
+	* Objetos
+        Es una forma de representar de manera individual a una cosa u objeto de nuestra vida real, for instance, we could be represented
+        as an object. const Me = {name: "yourname", lastName: "yourLastName", comer: function(food){...}, 
+        dormir: function(hours){...} ... }.
+
+	* Propiedades
+        Una propiedad is a characteristic that we had, and it's related to an especific object. For example, 
+        the object could be a dog, and one of its properties could be color which value may be Red LOL. 
+
+	* Métodos
+        An method is a function, activity or task that an object do, i.e. if a car is our object we could say that
+        one method that it has is move, accelerate, and some of them need something to be done. To turn on the ventilator
+        the motor needs to exceed an determinated temperature, so this method receive the temperature and after being 
+        evaluated the ventilator takes an action.
+
+	* Bucle `for…in`
+        Is a way of iterate very useful when we don't know the number of iterations that needs to be done, diffrently to
+        for loop it just requires to paraments, the first one is an string that refers to an collection's element, second
+        it requires an collection where the element move. Finally, we code some lines inside.
+
+	* Notación de puntos vs notación de corchetes
+    They have the same porpuse, indicate or take values from the object. In mi opinion, the first one is easier to apply.
