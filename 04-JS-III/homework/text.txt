@@ -1,0 +1,3 @@
+Array  es una colección de datos, en javascript puede los elementosde colección no tener el mismo tipo. Una analogía
+válida sería si comparamos una variable como una caja, en donde podemos poner solo una cosa. Pero un array sería como
+un almacen donde puede entrar muchas cosas de diferentes tipos.
