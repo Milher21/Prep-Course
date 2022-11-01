@@ -1,0 +1,7 @@
+* `prototype`
+Es el modelo, formato, molde o guía de donde se crean otros objetos o tipo de datos. Nos sirve principalmente para tener
+una raíz desde donde comparte métodos y propiedades.
+
+* _Constructors_ (de Clases)
+Es una función donde inicializamos nuestros métodos y propiedades, constructors are important since they allow us to
+create new objects.
